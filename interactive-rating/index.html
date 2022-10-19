@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Overpass' rel='stylesheet'>
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+  <body>
+    <div class="content-main">
+      <div id="circulo"></div>
+      <img src="./images/icon-star.svg" alt="star" id="star">
+      
+       <div class="text">
+         <h1 class="h1-main"> How did we do? </h1>
+         <h2 class="h2-main">Please let us know how we did with your support request. All feedback is appreciated to help us improve our   offering!</h2>
+       </div>
+
+       <div class="ratting-buttons">
+         <input type="button" value="1" class="button-1">
+         <input type="button" value="2" class="button-2">
+         <input type="button" value="3" class="button-3">
+         <input type="button" value="4" class="button-4">
+         <input type="button" value="5" class="button-5">
+        </div>
+
+       <input type="submit" value="Submit" id="submit">
+      </div>
+
+      <div class="content-thanks hidden">
+        <div id="imagem">
+          <img src="./images/illustration-thank-you.svg" alt="thank-you" id="img-thanks">
+        </div>
+
+        <div id="selected">
+          <div id="text-selected">You selected <span id="feedback"></span> out of 5</div>
+        </div>
+        <h1 class="thanks">Thank you!</h1>
+        <h2 class="support">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</h2>
+      </div>
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/main.js"></script>
+
+  </body>
+</html>

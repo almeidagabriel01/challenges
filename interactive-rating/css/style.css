@@ -1,0 +1,142 @@
+body {
+  font-family: 'Overpass';
+  background-color: hsl(216, 12%, 8%);
+  font-size: 15px;
+}
+
+.content-main {
+  margin: auto;
+  padding-left: 30px;
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(0, 0%, 100%);
+  width: 380px;
+  height: 400px;
+  border-radius: 20px;
+}
+
+.content-thanks{
+  margin: auto;
+  padding: 40px 50px 0 50px;
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(0, 0%, 100%);
+  width: 380px;
+  height: 400px;
+  border-radius: 20px;
+}
+
+#imagem{
+  position: relative;
+  left: 28%;
+  margin-bottom: 20px;
+}
+
+#selected{
+  text-align: center;
+  width: 180px;
+  height: 30px;
+  position: relative;
+  left: 25%;
+  margin-bottom: 45px;
+  background-color: hsl(210, 17%, 16%);
+  border-radius: 20px;
+}
+
+#text-selected {
+  position: relative;
+  top: 6px;
+  left: 2px;
+  color: hsl(25, 97%, 53%);
+}
+
+.thanks {
+  text-align: center;
+}
+
+.support {
+  text-align: center;
+  margin-top: 30px;
+  color: hsl(217, 12%, 63%);
+  font-size: 17px;
+}
+
+#circulo{
+  position: relative;
+  border: 20px;
+  border-radius: 50%;
+  background-color: hsl(210, 17%, 16%);
+  width: 40px;
+  height: 40px;
+  top: 30px;
+}
+
+#star {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  left: 11px;
+}
+
+.text{
+  padding-right: 60px;
+}
+
+.h1-main{
+  margin-top: 40px;
+}
+
+.h2-main{
+  width: 350px;
+  font-size: 15px;
+  color: hsl(217, 12%, 63%);
+  margin: 15px 0 30px 0;
+}
+
+.ratting-buttons {
+  width: 380px;
+  margin-bottom: 40px;
+}
+
+.button-1, .button-2, .button-3, .button-4, .button-5 {
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  background-color: hsl(210, 17%, 16%);
+  border: none;
+  color: hsl(0, 0%, 100%);
+  padding: 12px 17px;
+  cursor: pointer;
+  border-radius: 60%;
+  margin-right: 30px;
+}
+
+.hover {
+  background-color: hsl(25, 97%, 53%);
+}
+
+.active {
+  background-color: hsl(217, 12%, 63%);
+}
+
+#submit {
+  position: relative;
+  width: 93%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  background-color: hsl(25, 97%, 53%);
+  border: none;
+  color: hsl(0, 0%, 100%);
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+#submit:hover {
+  transition: 0.5s;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+
+.hidden{
+  display: none;
+}
